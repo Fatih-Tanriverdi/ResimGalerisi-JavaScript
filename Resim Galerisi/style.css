@@ -1,0 +1,38 @@
+body{
+    background-color: #e1dcd3;
+}
+
+.cont-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-title h1 {
+    margin: 10px;
+}
+
+.cont-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    object-fit: cover;
+    margin: 10px;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+
+    position: relative;
+    transition: all .4s ease-in;
+    box-shadow: 8px 10px 8px gray;
+}
+
+
+img:hover {
+    transform: scale(0.9);
+    box-shadow: none;
+}
